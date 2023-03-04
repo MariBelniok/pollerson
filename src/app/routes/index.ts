@@ -12,7 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
         Hello world!
       </h1>
       <button mat-raised-button color="warn">
-        Botão
+        Clica ni mim
       </button>
     </div>
   `,
