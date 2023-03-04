@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
   standalone: true,
   imports: [MatButtonModule, NgFor],
   template: `
-    <button mat-raised-button color="action">
+    <button mat-raised-button color="warn">
       Botão
     </button>
   `,
