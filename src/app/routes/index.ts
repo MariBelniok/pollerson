@@ -7,9 +7,14 @@ import { MatButtonModule } from '@angular/material/button';
   standalone: true,
   imports: [MatButtonModule, NgFor],
   template: `
-    <button mat-raised-button color="warn">
-      Botão
-    </button>
+    <div class="flex flex-col gap-4 items-center">
+      <h1 class="text-2xl font-bold underline">
+        Hello world!
+      </h1>
+      <button mat-raised-button color="warn">
+        Botão
+      </button>
+    </div>
   `,
 })
 export default class HomeComponent {}
